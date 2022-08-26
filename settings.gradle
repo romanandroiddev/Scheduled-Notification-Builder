@@ -14,4 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Scheduled Notification Builder"
 include ':app'
-include ':Scheduled Notification Builder'
+include ':Scheduled-Notification-Builder'
