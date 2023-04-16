@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+
+    <application>
+
+        <receiver android:name=".receivers.CancelNotificationReceiver" />
+        <receiver android:name=".receivers.NotificationReceiver" />
+        <receiver android:name=".receivers.RepeatedNotificationReceiver" />
+    </application>
+</manifest>
